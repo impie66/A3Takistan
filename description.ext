@@ -1,0 +1,1226 @@
+class CfgWLRequisitionPresets
+{
+    class MyWLAssetList // --- class name used in the Init module
+    {
+        class WEST // --- assets available for BLUFOR
+        {
+            class Infantry
+            {
+				class rhsusf_usmc_marpat_d_sniper_m107
+                {
+				// -- m107 snipers
+                cost = 200; 
+                requirements[]={}; 
+                };
+
+				class rhsusf_usmc_marpat_d_rifleman
+                {
+				cost = 100; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_usmc_marpat_d_gunner
+                {
+				cost = 120; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_usmc_marpat_d_grenadier_m32
+                {
+				cost = 175; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_usmc_marpat_d_marksman
+                {
+				cost = 155; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_usmc_marpat_d_engineer
+                {
+				cost = 155; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_usmc_marpat_d_javelin
+                {
+				cost = 350; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_usmc_marpat_d_stinger
+                {
+				cost = 350; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_usmc_marpat_d_machinegunner
+                {
+				cost = 200; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_usmc_marpat_d_rifleman_m590
+                {
+				cost = 100; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_USMC_Soldier_MG_FROG_DES
+                {
+				cost = 170; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_USMC_Medic_FROG_DES
+                {
+				cost = 200; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_USMC_Soldier_TL_FROG_DES
+                {
+				cost = 120; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_USMC_Soldier_GL_FROG_DES
+                {
+				cost = 150; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_USMC_Officer_FROG_DES
+                {
+				cost = 130; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_USMC_Soldier_FROG_DES
+                {
+				cost = 100; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_USMC_SpecOps_FROG_DES
+                {
+				cost = 120; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_BAF_Soldier_RiflemanAT_DDPM
+                {
+				cost = 150; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_BAF_Soldier_AutoRifleman_DDPM
+                {
+				cost = 200; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_BAF_Soldier_Medic_DDPM
+                {
+				cost = 150; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_BAF_Soldier_Marksman_DDPM
+                {
+				cost = 220; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_BAF_Sniper_DDPM
+                {
+				cost = 300; 
+                requirements[]={}; 
+                };
+				
+				
+				
+				
+            };
+            class Vehicles
+            {
+				class B_Quadbike_01_F
+				{
+				// -- 250 mm cannon quadbike with 105mm  auto cannon anti infantry, ERA, Battlebus protection, Pocket universe inside.
+				cost = 200; 
+                requirements[]={}; 
+                };
+				
+                class rhsusf_m1025_d_s
+                {
+				// -- humvee unarmed
+				cost = 200; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_m1025_d_s_Mk19
+                {
+				// -- humvee GL armed
+				cost = 900; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_m1025_d_s_m2
+                {
+				// -- humvee m2 armed
+				cost = 500; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_m998_d_s_2dr_halftop
+                {
+				// -- transport, 7 seater unarmed
+				cost = 300; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_CGRCAT1A2_M2_usmc_d
+                {
+				// -- transport, 7 seater m2 armeed
+				cost = 800; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_M1232_MC_M2_usmc_d
+                {
+				// -- transport truck, m2 armored gunner seat.
+				cost = 650; 
+                requirements[]={}; 
+                };
+				
+							
+				class RHS_M2A2_BUSKI
+                {
+				// --  RHS bradley, ERA
+				cost = 3300; 
+                requirements[]={}; 
+                };
+				
+				
+				class RHS_M2A3_BUSKIII
+                {
+				// -- bradley, ERA, some other shit i dunno.
+				cost = 3500; 
+                requirements[]={}; 
+                };
+				
+
+				class rhsusf_m1a1fep_d
+				{
+				// -- RHS abrams, era
+				cost = 5500; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_LR_Transport_GB_D
+				{
+				// -- unarmed transport truck, 4 seats
+				cost = 300; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_Jackal2_GMG_GB_D
+                {
+				// -- Jackal2 GMG, MG small transport
+				cost = 700; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_LR_Ambulance_GB_D
+				{
+				// -- unarmed transport ambulance
+				cost = 800; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_Ridgback_GMG_GB_D
+                {
+				// -- armored truck, RPG cage, GMG, transport
+				cost = 1000; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_FV432_Bulldog_GB_D
+                {
+				// -- Armored m3 carrier, m240, ERA
+				cost = 1200; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_FV432_Bulldog_GB_D_RWS
+                {
+				// -- Armored m3 carrier, m240, ERA
+				cost = 1350; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_FV510_GB_D_SLAT
+                {
+				// -- CUP BRADLEY
+				cost = 1800; 
+                requirements[]={}; 
+                };
+					
+
+				class CUP_B_MTVR_Ammo_USA
+				{
+				// -- ammo truck
+				cost = 2000; 
+                requirements[]={}; 
+                };
+				
+			
+				class CUP_B_MTVR_Refuel_USA
+				{
+				// -- refuel truck
+				cost = 2000; 
+                requirements[]={}; 
+                };
+				
+
+				class CUP_B_MTVR_Repair_USA
+				{
+				// -- repair truck
+				cost = 2000; 
+                requirements[]={}; 
+                };
+				
+
+				class CUP_B_LAV25_desert_USMC
+				{
+				// -- LAV
+				cost = 2500; 
+                requirements[]={}; 
+                };
+				
+				
+				class CUP_B_LAV25M240_desert_USMC
+				{
+				// --  LAV with m240 on top
+				cost = 2700; 
+                requirements[]={}; 
+                };
+				
+	
+				class CUP_B_MCV80_GB_D_SLAT
+				{
+				// -- British Bradley
+				cost = 2800; 
+                requirements[]={}; 
+                };
+				
+				
+				class CUP_B_M1A1_DES_USMC
+				{
+				// -- cup abrams, no era
+				cost = 5000; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_M1A2_TUSK_MG_DES_USMC
+				{
+				// -- cup abrams ERA
+				cost = 5500; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_Challenger2_Desert_BAF
+				{
+				// -- unarmed transport truck, 4 seats
+				cost = 5200; 
+                requirements[]={}; 
+                };
+				
+				
+            };
+            class Aircraft
+            {
+				class RHS_MELB_H6M
+				{
+				cost = 2000; 
+                requirements[]={"H"}; 
+                };
+				
+				class RHS_MELB_AH6M
+				{
+				cost = 2500; 
+                requirements[]={"H"}; 
+                };
+				
+	
+				class RHS_AH1Z
+				{
+				cost = 4200; 
+                requirements[]={"H"}; 
+                };
+							
+				class RHS_UH60M
+				{
+				cost = 2200; 
+                requirements[]={"H"}; 
+                };
+				
+				class B_Heli_Attack_01_dynamicLoadout_F
+				{
+				cost = 4300; 
+                requirements[]={"H"}; 
+                };
+				
+
+				class RHS_A10
+				{
+				cost = 5600; 
+                requirements[]={"A"}; 
+                };
+				
+				class rhsusf_f22
+				{
+				cost = 5700; 
+                requirements[]={"A"}; 
+                };
+				
+				class B_Plane_CAS_01_dynamicLoadout_F
+				{
+				cost = 5900; 
+                requirements[]={"A"}; 
+                };
+				
+				class CUP_B_UH1Y_UNA_USMC
+				{
+				cost = 2500; 
+                requirements[]={"H"}; 
+                };
+						
+				class CUP_B_UH1Y_Gunship_Dynamic_USMC
+				{
+				cost = 2800; 
+                requirements[]={"H"}; 
+                };
+				
+				class CUP_B_MH60L_DAP_2x_USN
+				{
+				cost = 2900; 
+                requirements[]={"H"}; 
+                };
+				
+				class CUP_B_AW159_Unarmed_RN_Grey
+				{
+				cost = 2500; 
+                requirements[]={"H"}; 
+                };
+				
+				
+				class CUP_B_CH53E_USMC
+				{
+				cost = 2800; 
+                requirements[]={"H"}; 
+                };
+				
+				class CUP_B_CH47F_GB
+				{
+				cost = 3000; 
+                requirements[]={"H"}; 
+                };
+				
+				class CUP_B_MH47E_GB
+				{
+				cost = 3500; 
+                requirements[]={"H"}; 
+                };
+				
+				class CUP_B_MV22_USMC
+				{
+				cost = 3500; 
+                requirements[]={"H"}; 
+                };
+				
+				class CUP_B_AH1Z_Dynamic_USMC
+				{
+				cost = 4000; 
+                requirements[]={"H"}; 
+                };
+				
+				class CUP_B_AH1_DL_BAF
+				{
+				cost = 4300; 
+                requirements[]={"H"}; 
+                };
+				
+				class CUP_B_GR9_DYN_GB
+				{
+				cost = 5500; 
+                requirements[]={"A"}; 
+                };
+				
+				class CUP_B_F35B_BAF
+				{
+				cost = 5700; 
+                requirements[]={"A"}; 
+                };
+				
+				
+				class CUP_B_F35B_Stealth_BAF
+				{
+				cost = 6000; 
+                requirements[]={"A"}; 
+                };
+				
+				
+            };
+            class Gear
+            {
+				
+				class CUP_USBasicWeapons_EP1
+				{
+				cost = 500; 
+                requirements[]={}; 
+                };
+				
+				class CUP_USBasicWeaponsBox
+				{
+				cost = 500; 
+                requirements[]={}; 
+                };
+				
+				
+				class CUP_USLaunchersBox
+				{
+				cost = 1000; 
+                requirements[]={}; 
+                };
+				
+				class CUP_USLaunchers_EP1
+				{
+				cost = 1000; 
+                requirements[]={}; 
+                };
+				
+				class ACE_medicalSupplyCrate
+				{
+				cost = 200; 
+                requirements[]={}; 
+                };
+				
+				
+				class ACE_medicalSupplyCrate_advanced
+				{
+				cost = 500; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_weapon_crate
+				{
+				cost = 500; 
+                requirements[]={}; 
+                };
+							
+				class CUP_USSpecialWeapons_EP1
+				{
+				cost = 800; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_spec_weapons_crate
+				{
+				cost = 1000; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_launcher_crate
+				{
+				cost = 1200; 
+                requirements[]={}; 
+                };
+				
+				class rhsusf_mags_crate
+				{
+				cost = 300; 
+                requirements[]={}; 
+                };
+
+			
+            };
+            class Defences
+            {
+				class RHS_M2StaticMG_USMC_D
+				{
+				// -- raised
+				cost = 300; 
+                requirements[]={}; 
+                };
+				
+				class RHS_M2StaticMG_MiniTripod_USMC_D
+				{
+				// -- lowered
+				cost = 300; 
+                requirements[]={}; 
+                };
+				
+				class RHS_MK19_TriPod_USMC_D
+				{
+				cost = 500; 
+                requirements[]={}; 
+                };
+				
+				class RHS_TOW_TriPod_USMC_D
+				{
+				cost = 700; 
+                requirements[]={}; 
+                };
+				
+				class RHS_Stinger_AA_pod_USMC_D
+				{
+				cost = 1200; 
+                requirements[]={}; 
+                };
+				
+				class CUP_B_M119_US
+				{
+				cost = 1500; 
+                requirements[]={}; 
+                };
+				
+				
+            };
+			
+        };
+        class EAST // --- assets available for OPFOR
+        {
+			class Infantry
+            {
+                class rhs_vdv_des_rifleman
+                {
+                    cost = 100; 
+                    requirements[]={}; 
+                };
+				
+				class rhs_vdv_des_grenadier
+                {
+                    cost = 120; 
+                    requirements[]={}; 
+                };
+				
+				class rhs_vdv_des_machinegunner
+                {
+                    cost = 200; 
+                    requirements[]={}; 
+                };
+				
+				class rhs_vdv_des_marksman
+                {
+                    cost = 150; 
+                    requirements[]={}; 
+                };
+				
+				class rhs_vdv_des_grenadier_rpg
+                {
+                    cost = 200; 
+                    requirements[]={}; 
+                };
+				
+				class rhs_vdv_des_at
+                {
+                    cost = 250; 
+                    requirements[]={}; 
+                };
+				
+				class rhs_vdv_des_medic
+                {
+                    cost = 150; 
+                    requirements[]={}; 
+                };
+				
+				class rhs_vdv_des_engineer
+                {
+                    cost = 250; 
+                    requirements[]={}; 
+                };
+				
+				class rhs_vdv_des_aa
+                {
+                    cost = 300; 
+                    requirements[]={}; 
+                };
+				
+				class rhs_vdv_des_arifleman
+                {
+                    cost = 250; 
+                    requirements[]={}; 
+                };
+				
+				
+				class CUP_O_RU_Soldier_LAT_VDV
+                {
+                    cost = 150; 
+                    requirements[]={}; 
+                };
+				
+				class CUP_O_RU_Soldier_AT_VDV
+                {
+                    cost = 220; 
+                    requirements[]={}; 
+                };
+				
+				class CUP_O_RU_Sniper_VDV
+                {
+                    cost = 200; 
+                    requirements[]={}; 
+                };
+				
+				class CUP_O_RU_Soldier_GL_VDV
+                {
+                    cost = 150; 
+                    requirements[]={}; 
+                };
+				
+				class CUP_O_RU_Soldier_AR_VDV
+                {
+                    cost = 200; 
+                    requirements[]={}; 
+                };
+				class CUP_O_RU_Soldier_AA_VDV
+                {
+                    cost = 300; 
+                    requirements[]={}; 
+                };
+				class CUP_O_RU_Soldier_HAT_VDV
+                {
+                    cost = 500; 
+                    requirements[]={}; 
+                };
+				
+				class CUP_O_RU_Medic_VDV
+                {
+                    cost = 150; 
+                    requirements[]={}; 
+                };
+				
+				
+            };
+            class Vehicles
+            {
+				class rhs_uaz_vdv
+                {
+                    cost = 150; 
+                    requirements[]={}; 
+                };	
+				
+				class rhs_zil131_vdv
+                {
+                    cost = 350; 
+                    requirements[]={}; 
+                };
+				
+				class RHS_Ural_VDV_01
+                {
+                    cost = 350; 
+                    requirements[]={}; 
+                };	
+											
+
+				class RHS_Ural_Repair_VDV_01
+                {
+                    cost = 1000; 
+                    requirements[]={}; 
+                };	
+				
+				class RHS_Ural_Fuel_VDV_01
+                {
+                    cost = 1000; 
+                    requirements[]={}; 
+                };	
+				
+				class rhs_btr60_vdv
+                {
+                    cost = 1000; 
+                    requirements[]={}; 
+                };	
+				
+				class rhs_gaz66_ammo_vdv
+                {
+                    cost = 1200; 
+                    requirements[]={}; 
+                };	
+				
+				class rhs_btr70_vdv
+                {
+                    cost = 1200; 
+                    requirements[]={}; 
+                };	
+				
+				class rhs_bmd1
+                {
+                    cost = 1300; 
+                    requirements[]={}; 
+                };	
+				
+				class rhs_bmd2
+                {
+                    cost = 1350; 
+                    requirements[]={}; 
+                };	
+				
+				class rhs_btr80a_vdv
+                {
+                    cost = 1500; 
+                    requirements[]={}; 
+                };				
+				class rhs_bmp1_vdv
+                {
+                    cost = 1500; 
+                    requirements[]={}; 
+                };	
+				
+				class rhs_bmd4_vdv
+                {
+                    cost = 1800; 
+                    requirements[]={}; 
+                };	
+				
+								
+				class rhs_gaz66_zu23_vdv
+                {
+                    cost = 1800; 
+                    requirements[]={}; 
+                };	
+				
+	
+				class rhsgref_BRDM2_vdv
+                {
+                    cost = 2000; 
+                    requirements[]={}; 
+                };	
+				
+				class rhsgref_BRDM2_ATGM_vdv
+                {
+                    cost = 2500; 
+                    requirements[]={}; 
+                };	
+
+				class rhs_bmp2e_vdv
+                {
+                    cost = 2200; 
+                    requirements[]={}; 
+                };	
+				
+				class rhsgref_ins_zsu234
+                {
+                    cost = 3500; 
+                    requirements[]={}; 
+                };	
+				
+				
+				class rhs_sprut_vdv
+                {
+                    cost = 5000; 
+                    requirements[]={}; 
+                };	
+							
+				class O_MBT_04_cannon_F
+                {
+                    cost = 6000; 
+                    requirements[]={}; 
+                };	
+				
+				class O_MBT_04_command_F
+                {
+                    cost = 6200; 
+                    requirements[]={}; 
+                };	
+				
+				class CUP_O_GAZ_Vodnik_PK_RU
+                {
+                    cost = 400; 
+                    requirements[]={}; 
+                };	
+				
+				class CUP_O_GAZ_Vodnik_BPPU_RU
+                {
+                    cost = 1300; 
+                    requirements[]={}; 
+                };	
+				
+				
+				class CUP_O_2S6M_RU
+                {
+                    cost = 4000; 
+                    requirements[]={}; 
+                };	
+				
+				class CUP_O_T72_RU
+                {
+                    cost = 4500; 
+                    requirements[]={}; 
+                };	
+				
+				class CUP_O_T90_RU
+                {
+                    cost = 5500; 
+                    requirements[]={}; 
+                };	
+				
+				
+				
+				class B_Quadbike_01_F
+				{
+				// -- 250 mm cannon quadbike with 105mm auto cannon anti infantry, ERA, Battlebus protection, Pocket universe inside.
+				cost = 200; 
+                requirements[]={}; 
+                };
+				
+				
+				
+				
+            };
+            class Aircraft
+            {
+			
+				class RHS_Mi8mt_Cargo_vdv
+				{
+				cost = 2000; 
+                requirements[]={"H"}; 
+                };
+				
+				class RHS_Mi8AMT_vdv
+				{
+				cost = 2000; 
+                requirements[]={"H"}; 
+                };
+				
+				class RHS_Mi8mt_vdv
+				{
+				cost = 2200; 
+                requirements[]={"H"}; 
+                };
+				
+				class RHS_Mi8MTV3_heavy_vdv
+				{
+				cost = 2500; 
+                requirements[]={"H"}; 
+                };
+				
+				class RHS_Mi8MTV3_vdv
+				{
+				cost = 2700; 
+                requirements[]={"H"}; 
+                };
+				
+				class RHS_Mi24V_vdv
+				{
+				cost = 4500; 
+                requirements[]={"H"}; 
+                };
+				class RHS_Mi24P_vdv
+				{
+				cost = 4800; 
+                requirements[]={"H"}; 
+                };
+				
+				class RHS_T50_vvs_generic
+				{
+				cost = 5500; 
+                requirements[]={"A"}; 
+                };
+						
+				class rhs_mig29s_vvs
+				{
+				cost = 6200; 
+                requirements[]={"A"}; 
+                };
+				
+				
+				class CUP_O_Ka52_RU
+				{
+				cost = 4500; 
+                requirements[]={"H"}; 
+                };
+				
+				class CUP_O_Ka50_DL_RU
+				{
+				cost = 4500; 
+                requirements[]={"H"}; 
+                };
+				
+				class CUP_O_Su25_Dyn_RU
+				{
+				cost = 6000; 
+                requirements[]={"A"}; 
+                };
+				
+				class CUP_O_SU34_RU
+				{
+				cost = 6000; 
+                requirements[]={"A"}; 
+                };
+				
+            };
+			
+            class Gear
+            {
+				class CUP_RUBasicAmmunitionBox
+				{
+				cost = 500; 
+                requirements[]={}; 
+                };
+				
+				class CUP_RUBasicWeaponsBox
+				{
+				cost = 500; 
+                requirements[]={}; 
+                };
+				
+				
+				class CUP_RULaunchersBox
+				{
+				cost = 800; 
+                requirements[]={}; 
+                };
+				
+				class rhs_mags_crate
+				{
+				cost = 500; 
+                requirements[]={}; 
+                };
+				
+				class rhs_gear_crate
+				{
+				cost = 500; 
+                requirements[]={}; 
+                };
+				
+				class rhs_launcher_crate
+				{
+				cost = 1000; 
+                requirements[]={}; 
+                };
+				
+				class rhs_spec_weapons_crate
+				{
+				cost = 1200; 
+                requirements[]={}; 
+                };
+				
+				class rhs_weapon_crate
+				{
+				cost = 1300; 
+                requirements[]={}; 
+                };
+				
+				
+				class ACE_medicalSupplyCrate
+				{
+				cost = 200; 
+                requirements[]={}; 
+                };
+				
+
+				class ACE_medicalSupplyCrate_advanced
+				{
+				cost = 500; 
+                requirements[]={}; 
+                };
+				
+				
+            };
+            class Defences
+            {
+				class rhs_KORD_high_VDV
+				{
+				// -- high
+				cost = 500; 
+                requirements[]={}; 
+                };
+				
+				class rhs_KORD_VDV
+				{
+				// -- low
+				cost = 500; 
+                requirements[]={}; 
+                };
+				
+				class RHS_AGS30_TriPod_VDV
+				{
+				cost = 600; 
+                requirements[]={}; 
+                };
+				
+				class rhs_SPG9M_VDV
+				{
+				cost = 800; 
+                requirements[]={}; 
+                };
+				
+				class rhs_Metis_9k115_2_vdv
+				{
+				// -- low
+				cost = 1000; 
+                requirements[]={}; 
+                };
+				
+				class rhs_Kornet_9M133_2_vdv
+				{
+				cost = 1200; 
+                requirements[]={}; 
+                };
+				
+				class rhs_Igla_AA_pod_vdv
+				{
+				cost = 1300; 
+                requirements[]={}; 
+                };
+				
+				class RHS_ZU23_VDV
+				{
+				cost = 800; 
+                requirements[]={}; 
+                };
+				
+				class CUP_O_D30_RU
+				{
+				cost = 1000; 
+                requirements[]={}; 
+                };
+				
+				class CUP_O_D30_AT_RU
+				{
+				// -- at version of d30
+				cost = 1500; 
+                requirements[]={}; 
+                };
+				
+            };
+            
+        };
+    };
+};
+
+class Params
+{
+class BIS_WLStartingDaytime
+{
+	title = $STR_A3_combatpatrol_params_1;
+	values[] = {100, -6, 0, 6, -12};
+	texts[] = {$STR_A3_WL_param37_value1, $STR_A3_combatpatrol_params_3, $STR_A3_MP_COOP_m03_noon, $STR_A3_MP_COOP_m03_evening, $STR_A3_combatpatrol_params_6};
+	default = 100;
+};
+class BIS_WLTimeAcceleration
+{
+	title = $STR_A3_WL_param2_title;
+	values[] = {1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24};
+	texts[] = {$STR_special_none, "x2", "x4", "x6", "x8", "x10", "x12", "x14", "x16", "x18", "x20", "x22", "x24"};
+	default = 1;
+};
+class BIS_WLProgress
+{
+	title = $STR_A3_WL_param1_title;
+	values[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
+	texts[] = {$STR_special_none,$STR_A3_WL_forcedProgress_perc_1,$STR_A3_WL_forcedProgress_perc_2,$STR_A3_WL_forcedProgress_perc_3,$STR_A3_WL_forcedProgress_perc_4,$STR_A3_WL_forcedProgress_perc_5,$STR_A3_WL_forcedProgress_perc_6,$STR_A3_WL_forcedProgress_perc_7,$STR_A3_WL_forcedProgress_perc_8,$STR_A3_WL_forcedProgress_perc_9,$STR_A3_WL_forcedProgress_perc_10,$STR_A3_WL_forcedProgress_perc_11,$STR_A3_WL_forcedProgress_perc_12};
+	default = 1;
+};
+class BIS_WLFTEnabled
+{
+	title = $STR_A3_fastravel1;
+	values[] = {1, 0, 2, 3, 4};
+	texts[] = {$STR_A3_WL_param3_value1, $STR_A3_WL_param3_value2, $STR_A3_WL_param3_value3, $STR_A3_WL_param3_value4, $STR_A3_WL_param3_value5};
+	default = 1;
+};
+class BIS_WLScanEnabled
+{
+	title = $STR_A3_WL_param4_title;
+	values[] = {1, 0};
+	texts[] = {$STR_DISP_OPT_ENABLED, $STR_DISP_OPT_DISABLED};
+	default = 1;
+};
+class BIS_WLVotingResetEnabled
+{
+	title = $STR_A3_WL_menu_resetvoting;
+	values[] = {1, 0};
+	texts[] = {$STR_DISP_OPT_ENABLED, $STR_DISP_OPT_DISABLED};
+	default = 1;
+};
+class BIS_WLAIVoting
+{
+	title = $STR_A3_WL_param5_title;
+	values[] = {1, 0};
+	texts[] = {$STR_DISP_OPT_ENABLED, $STR_DISP_OPT_DISABLED};
+	default = 0;
+};
+class BIS_WLArsenalEnabled
+{
+	title = $STR_A3_Arsenal;
+	values[] = {1, 0};
+	texts[] = {$STR_DISP_OPT_ENABLED, $STR_DISP_OPT_DISABLED};
+	default = 1;
+};
+class BIS_WLMarkersTransparency
+{
+	title = $STR_A3_WL_param7_title;
+	values[] = {4, 3, 2, 1, 0};
+	texts[] = {$STR_A3_WL_param7_value1, $STR_A3_WL_markerAlpha_perc_1, $STR_A3_WL_markerAlpha_perc_2, $STR_A3_WL_markerAlpha_perc_3, $STR_A3_WL_param7_value2};
+	default = 2;
+};
+class BIS_WLPlayersTransparency
+{
+	title = $STR_A3_WL_param8_title;
+	values[] = {4, 3, 2, 1, 0};
+	texts[] = {$STR_A3_WL_param7_value1, $STR_A3_WL_markerAlpha_perc_1, $STR_A3_WL_markerAlpha_perc_2, $STR_A3_WL_markerAlpha_perc_3, $STR_A3_WL_param7_value2};
+	default = 2;
+};
+class BIS_WLFatigueEnabled
+{
+	title = $STR_A3_fatigue1;
+	values[] = {1, 0};
+	texts[] = {$STR_DISP_OPT_ENABLED, $STR_DISP_OPT_DISABLED};
+	default = 1;
+};
+class BIS_WLMusic
+{
+	title = $STR_A3_rscattributemusic_title;
+	values[] = {1, 0};
+	texts[] = {$STR_DISP_OPT_ENABLED, $STR_DISP_OPT_DISABLED};
+	default = 1;
+};
+class BIS_WLVoice
+{
+	title = $STR_A3_orange_faction_idap_cfgidentities_expo_name;
+	values[] = {1, 0};
+	texts[] = {$STR_DISP_OPT_ENABLED, $STR_DISP_OPT_DISABLED};
+	default = 1;
+};
+class BIS_WLStartCP
+{
+	title = $STR_A3_WL_param12_title;
+	values[] = {0, 100, 250, 500, 1000, 2500, 5000};
+	texts[] = {"0", "100", "250", "500", "1000", "2500", "5000"};
+	default = 500;
+};
+class BIS_WLCPMultiplier
+{
+	title = $STR_A3_WL_param13_title;
+	values[] = {1, 2, 3, 4, 5};
+	texts[] = {"1x", "2x", "3x", "4x", "5x"};
+	default = 2;
+};
+class BIS_WLVotingTimeout
+{
+	title = $STR_A3_WL_param14_title;
+	values[] = {5, 10, 15, 20, 25, 30};
+	texts[] = {"5", "10", "15", "20", "25", "30"};
+	default = 15;
+};
+class BIS_WLVehicleSpan
+{
+	title = $STR_A3_WL_param15_title;
+	values[] = {900, 1800, 3600, 5400, 7200, 1000000};
+	texts[] = {"15", "30", "60", "90", "120", $STR_A3_WL_param15_value1};
+	default = 900;
+};
+};
+
+
